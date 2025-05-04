@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #212124;
+  --yellow-color: #FFE852;
+  --white-gray-color: #F2F3F5;
+  --gray-color: #636F7D;
+}
+
+@font-face {
+  font-family: 'Officina-SerifC-Bold';
+  src: url('../fonts/OfficinaSerifC\ Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--primary-color);
+}
